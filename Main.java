@@ -7,7 +7,6 @@ public class Main {
             System.out.print(myArray[i] + ", ");
         }
         System.out.println();
-
         SortEm(myArray);
     }
 
@@ -22,12 +21,10 @@ public class Main {
                     ar[j + 1] = temp;
                 }
             }
-
         System.out.print("The new sequence:-\n    ");
         for (int i = 0; i < ar.length; i++) {
             System.out.print(ar[i] + ", ");
         }
         System.out.println();
     }
-
 }
